@@ -1,0 +1,168 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.secao1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.secao1 p:nth-child(1) {
+  color: #3db895;
+}
+
+.secao1 :nth-child(4) {
+  line-height: 1.75em;
+  color: #848585;
+}
+
+button {
+  background-color: #13b49f;
+  margin: 10px 0px 30px 0px;
+  color: #ffffff;
+  border: none;
+  padding: 11px 35px 11px 35px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+h1 {
+  color: #293651;
+}
+h2 {
+  font-family: "sans serif";
+  color: #293651;
+  margin: 0.1em;
+}
+
+.secao1 :nth-child(9) {
+  color: #293651;
+  text-align: justify;
+}
+
+.barra1,
+.barra2,
+.barra3 {
+  height: 0.2em;
+  background-color: rgb(19, 142, 101);
+  display: inline-block;
+  border-radius: 2vw;
+}
+
+.barra1 {
+  width: 2.4em;
+}
+.barra2 {
+  width: 0.8em;
+}
+.barra3 {
+  width: 0.4em;
+}
+
+.imagem_div {
+  text-align: center;
+}
+
+.imagem_div img {
+  width: 40%;
+}
+
+progress {
+  width: 100%;
+  accent-color: #3db895;
+}
+
+/* Seção 2 */
+
+.secao2 {
+  background-color: #f6f6f6;
+  margin: auto;
+}
+
+h3 {
+  color: #293651;
+  margin-left: 46%;
+}
+
+.projetos_pai {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.quad {
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  width: 45%;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+  box-shadow: 10px 5px 10px black;
+  background-color: #ffffff;
+}
+
+.quad img {
+  position: absolute;
+  width: 25%;
+  left: 1em;
+  top: 1em;
+  background-color: #79f3d3;
+}
+
+/* Região Contatos */
+
+.contatos {
+  color: #ffffff;
+  padding: 5ex 0;
+  background: center / cover url(/image/mapamundo.png);
+}
+
+.quad p:nth-child(2) {
+  margin-left: 1.5em;
+  margin-top: 1.5em;
+  font-weight: 600;
+}
+
+.quad p:nth-child(3) {
+  text-align: justify;
+  display: inline-block;
+  font-weight: lighter;
+  margin: auto;
+  line-height: 1.75em;
+  color: #848585;
+  padding: 8%;
+}
+
+.contatos div {
+  background-color: #4ab295;
+  width: 60%;
+  height: 45%;
+  margin: auto;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.contatos p:nth-child(1) {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0 1em;
+}
+
+footer {
+  height: 30ex;
+  text-align: center;
+}
+
+footer img {
+  padding: 0.5em;
+}
+
+footer p {
+  font-size: 1.5em;
+}
+
+.submenu {
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: 400;
+}
