@@ -51,6 +51,11 @@ h2 {
   text-align: justify;
 }
 
+.progress-label {
+  color: #848585;
+  text-align: right;
+}
+
 .barra1,
 .barra2,
 .barra3 {
